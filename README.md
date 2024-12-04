@@ -28,3 +28,13 @@ The second part was a bit more tricky, but I figured it out in the end by keepin
 the indices in the string where `do()` and `don't()` were found. Once I have the indices,
 I can then cut up the string into "enabled" strings where I can calculate the sum of the products.
 I don't love the solution as it requires a few for loops, but it works.
+
+## Day 4 Notes
+I feel like today's puzzle was just mean. I was able to do the first part by breaking the puzzle into
+a 2d array of characters. I would then iterate through the rows and look for the string `XMAS`.
+The trick for part one was doing 8 transformations to the array to check for the string in all directions.
+I used numpy to make the transformations more efficient. For the second part, I realized my method would be
+rather tedious and it would be better to have a sliding window of 3x3 across the grid to find all occurrences
+of "X-MAS". Unfortunately, I ran out of time today, so I took a solution from the [subreddit by the user
+nik282000](https://www.reddit.com/r/adventofcode/comments/1h689qf/comment/m0cf7je/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button).
+I adapted slightly to fit my style, but I can't take credit for the solution.

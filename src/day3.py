@@ -1,4 +1,4 @@
-# Problem: https://adventofcode.com/2024/day/3#part3
+# Problem: https://adventofcode.com/2024/day/3#part2
 
 import re
 
