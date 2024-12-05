@@ -38,3 +38,12 @@ rather tedious and it would be better to have a sliding window of 3x3 across the
 of "X-MAS". Unfortunately, I ran out of time today, so I took a solution from the [subreddit by the user
 nik282000](https://www.reddit.com/r/adventofcode/comments/1h689qf/comment/m0cf7je/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button).
 I adapted slightly to fit my style, but I can't take credit for the solution.
+
+## Day 5 Notes
+Today stated off pretty good. In Part 1 I created a Dictionary of numbers with rules for before and after in sets
+for quick lookups. Then checking each update if it followed the rules was as simple as checking the
+rules in my dictionaries. Part two I got very close to the answer, but was over-estimating by <1% , meaning
+I was missing some edge case or forgot to check the final method again. The solution was to wrap
+the whole solution in a while loop to keep checking until the final method was correct, but I really wanted
+to do it in one pass. Oh well. Fun problem. If I were to tackle it again, I feel like there is a connected
+graph problem in there.
